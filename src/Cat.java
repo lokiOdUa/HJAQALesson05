@@ -9,4 +9,17 @@ public class Cat extends Animal {
     public Cat(String name, long numLimbs) {
         super(name, numLimbs);
     }
+
+    public String getSuit() {
+        return suit;
+    }
+
+    public void setSuit(String suit) {
+        this.suit = suit;
+    }
+
+    @Override
+    void sound() {
+        System.out.println("Meow!...");
+    }
 }
