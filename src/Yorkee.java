@@ -12,4 +12,10 @@ public class Yorkee extends Dog {
     public Yorkee(String name, long numLimbs) {
         super(name, numLimbs);
     }
+
+    @Override
+    void sound() {
+        System.out.println(getMyYorkString());
+        super.sound();
+    }
 }

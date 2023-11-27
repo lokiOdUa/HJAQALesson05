@@ -19,7 +19,6 @@ public class Dog extends Animal {
         this.breed = breed;
     }
 
-    @Override
     void sound() {
         System.out.println("Woff!!!");
     }
